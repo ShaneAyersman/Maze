@@ -1,0 +1,167 @@
+DATA:
+
+##### Maze 1 #####
+4	4
+XXXX
+   X
+XX X
+XX X
+
+Path 1
+(2, 1), (2, 2), (2, 3), (3, 3), (4, 3)
+Distance = 4
+
+XXXX
+---X
+XX-X
+XX-X
+
+Shortest path for this maze: (2, 1), (2, 2), (2, 3), (3, 3), (4, 3)
+Shortest path distance: 4
+
+
+##### Maze 2 #####
+5	5
+XXXXX
+    X
+X X  
+  X X
+XXXXX
+
+Path 1
+(2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (3, 5)
+Distance = 5
+
+XXXXX
+----X
+X X--
+  X X
+XXXXX
+
+Path 2
+(2, 1), (2, 2), (3, 2), (4, 2), (4, 1)
+Distance = 4
+
+XXXXX
+----X
+X-X--
+--X X
+XXXXX
+
+Shortest path for this maze: (2, 1), (2, 2), (3, 2), (4, 2), (4, 1)
+Shortest path distance: 4
+
+
+##### Maze 3 #####
+7	8
+XXXXXX X
+       X
+X X X XX
+XX  X  X
+X  XX XX
+  XX  XX
+XXXXXXXX
+
+Path 1
+(2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (1, 7)
+Distance = 7
+
+XXXXXX-X
+-------X
+X X X XX
+XX  X  X
+X  XX XX
+  XX  XX
+XXXXXXXX
+
+Path 2
+(2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4, 4), (4, 3), (5, 3), (5, 2), (6, 2), (6, 1)
+Distance = 10
+
+XXXXXX-X
+-------X
+X X-X XX
+XX--X  X
+X--XX XX
+--XX  XX
+XXXXXXXX
+
+Shortest path for this maze: (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (1, 7)
+Shortest path distance: 7
+
+
+##### Maze 4 #####
+10	10
+XXXXXX XXX
+       XXX
+XXX XXXXXX
+XXX XXXXXX
+XXX XXXXXX
+      XXXX
+XX XX XXXX
+XX XX  XXX
+   XXX XXX
+XXXXXX XXX
+
+Path 1
+(2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (1, 7)
+Distance = 7
+
+XXXXXX-XXX
+-------XXX
+XXX XXXXXX
+XXX XXXXXX
+XXX XXXXXX
+      XXXX
+XX XX XXXX
+XX XX  XXX
+   XXX XXX
+XXXXXX XXX
+
+Path 2
+(2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4, 4), (5, 4), (6, 4), (6, 5), (6, 6), (7, 6), (8, 6), (8, 7), (9, 7), (10, 7)
+Distance = 14
+
+XXXXXX-XXX
+-------XXX
+XXX-XXXXXX
+XXX-XXXXXX
+XXX-XXXXXX
+   ---XXXX
+XX XX-XXXX
+XX XX--XXX
+   XXX-XXX
+XXXXXX-XXX
+
+Path 3
+(2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4, 4), (5, 4), (6, 4), (6, 3), (7, 3), (8, 3), (9, 3), (9, 2), (9, 1)
+Distance = 13
+
+XXXXXX-XXX
+-------XXX
+XXX-XXXXXX
+XXX-XXXXXX
+XXX-XXXXXX
+  ----XXXX
+XX-XX-XXXX
+XX-XX--XXX
+---XXX-XXX
+XXXXXX-XXX
+
+Path 4
+(2, 1), (2, 2), (2, 3), (2, 4), (3, 4), (4, 4), (5, 4), (6, 4), (6, 3), (6, 2), (6, 1)
+Distance = 10
+
+XXXXXX-XXX
+-------XXX
+XXX-XXXXXX
+XXX-XXXXXX
+XXX-XXXXXX
+------XXXX
+XX-XX-XXXX
+XX-XX--XXX
+---XXX-XXX
+XXXXXX-XXX
+
+Shortest path for this maze: (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (2, 6), (2, 7), (1, 7)
+Shortest path distance: 7

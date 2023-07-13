@@ -93,8 +93,9 @@ int main()
 		clearTerrain(mazeTerrain);
 		getTerrain(mazeArray, mazeTerrain, row, col, numberOfExits);
 
-		cout << "Checking getTerrain function for maze #" << mazeNumber << "\n";
-		printTerrain(mazeTerrain, row, col);
+			/*This just lets me make sure the getTerrain function is working*/
+		//cout << "Checking getTerrain function for maze #" << mazeNumber << "\n";
+		//printTerrain(mazeTerrain, row, col);
 
 		clearStack(rowStack);
 		clearStack(colStack);
